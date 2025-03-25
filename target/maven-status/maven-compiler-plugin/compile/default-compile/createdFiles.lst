@@ -1,0 +1,12 @@
+com\photostore\controller\TestController.class
+com\photostore\model\Order.class
+com\photostore\repository\UserRepository.class
+com\photostore\repository\OrderRepository.class
+com\photostore\PhotoStoreApplication.class
+com\photostore\controller\PhotoController.class
+com\photostore\config\DataInitializer.class
+com\photostore\repository\PhotoRepository.class
+com\photostore\model\User.class
+com\photostore\model\CartItem.class
+com\photostore\repository\CartItemRepository.class
+com\photostore\model\Photo.class
