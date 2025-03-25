@@ -20,14 +20,14 @@ public class DataInitializer implements CommandLineRunner {
     private PhotoRepository photoRepository;
 
     @Override
-    public void run(String... args) {
+    public void run(String... args) {        
         // 創建攝影師用戶
-        User photographer = new User();
-        photographer.setUsername("photographer1");
-        photographer.setPassword("123456");
-        photographer.setEmail("photo@test.com");
-        photographer.setRole("PHOTOGRAPHER");
-        userRepository.save(photographer);
+    User photographer = new User();
+    photographer.setUsername("photographer1");
+    photographer.setPassword("123456");
+    photographer.setEmail("photographer1@test.com");  // 修改 email
+    photographer.setRole("PHOTOGRAPHER");
+    userRepository.save(photographer);
 
         // 創建一些照片
         createPhoto("日落風景", "美麗的海邊日落", "sunset.jpg", new BigDecimal("299"), photographer);
